@@ -20,7 +20,7 @@
   
   
   **column:** alinha os itens em forma de coluna (verticalmente); Exemplo Utilizando 2 divs:<br>
-  <img height = "100px" src = "https://user-images.githubusercontent.com/100320094/229654384-2a137379-3049-4a55-995a-72637d0629e5.png">
+  <img height = "100px" src = "https://user-images.githubusercontent.com/100320094/229654591-7ea784e2-824a-4550-8b9a-7d81ca71fb15.png">
   
   **row-reverse:** alinha os itens da direita para esquerda; 
  Exemplo:  <br>
