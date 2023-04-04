@@ -26,6 +26,7 @@
  Exemplo:  <br>
   <img height = "100px" src = "https://user-images.githubusercontent.com/100320094/229653886-95bfc83e-1b8a-4396-8900-2ad8f37391df.png">
   <br>
-  **column-reverse:** alinha os itens debaixo para cima.
+  **column-reverse:** alinha os itens debaixo para cima. Exemplo Utilizando 2 divs: <br> 
+   <img height= "100px" src = "https://user-images.githubusercontent.com/100320094/229655290-95d74273-0589-4c21-874e-864256039b96.png"> 
   
   
