@@ -57,7 +57,40 @@
 **baseline**: utilizado para alinhar textos; Exemplos: <br> 
 <img height = "150px" src= "https://user-images.githubusercontent.com/100320094/229659671-b1423896-a959-438b-a4cb-f101e61f02c7.png"> <br>
 
+ **stretch**: podemos alinhar objetos deixando-os do mesmo tamanho e que respeitem o tamanho do container. A propriedade só funciona acompanhada da propriedade `flex-direction` que indica o fluxo do container (row ou column). Exemplos:
  
+<img height ="100px" src = "https://user-images.githubusercontent.com/100320094/229935815-a38a4052-8f4e-4e46-a045-36fad87f28a3.png"><img height = "100px" src = "https://user-images.githubusercontent.com/100320094/229936280-085d41f5-3bb8-464e-a2ea-e40b594b8bb7.png" ><br>
+
+
+* Obs: Perceba que no exemplo 2 eu coloquei a child 1 com 500px de largura e a child 2 com 200px de largura, a função do stretch trás isso, conseguir colocar os elementos e eles respeitem até a borda do nosso container, assim como no exemplo 1, mas respeitando verticalmente. 
+
+`flex-wrap:` permite serem postos em uma linha (nowrap) ou quebrar linhas (wrap).
+<img height = "100px" src = "https://user-images.githubusercontent.com/100320094/229940216-fbc1a2a0-42d9-4c2f-860e-61f364326a9e.png"><img height = "100px" src = "https://user-images.githubusercontent.com/100320094/229940330-a81a730f-fb35-4c63-8b42-25a1a9874edf.png"><br>
+
+`align-content:` É usado para alinhas os itens verticalmente. Podem ser utilizados os seguintes elementos: **flex-start, flex-end, center, space-between, space-around e stretch.** 
+
+* OBS: esta propriedade só funcionará se conter o flex-wrap definido. 
+
+`flex-grow:` ele deixa os itens do mesmo tamanho ocupando o espaço disponível proporcionalmente. 
+<img height = "100px" src= "https://user-images.githubusercontent.com/100320094/229942680-87b3501b-a4a9-4576-a940-ab9dd7e63129.png"> <br> 
+* OBS: Neste caso, eu coloquei o valor do `flex-grow`da **child 1** como valor **1px** e a **child 2** com valor **0px**, assim podemos observar com clareza
+que a child que vai ser maior é a que tiver maior valor.
+
+`flex-shrink:` ao contrário do `flex-grow`, este elemento diminui os elementos para maior espaçamento na container. Exemplo: 
+<img height = "100px" src= "https://user-images.githubusercontent.com/100320094/229943481-19ad0ef1-7935-4297-999b-528cb5f9bcf5.png"><img height = "100px" src = "https://user-images.githubusercontent.com/100320094/229943957-e6c84e33-f4dc-475d-8755-5eab825917ec.png"><br> 
+* OBS: O flex-shrink funciona junto ao flex-direction, então isso definirá se é row ou column. 
+
+
+`flex-basis:` é possível definir o tamanho de um item antes dele crescer. Exemplo: **flex-basis: 25%;** 
+<img height = "100px" src = "https://user-images.githubusercontent.com/100320094/229944501-1aac9267-8b96-4485-904f-5993f480c18d.png"><br>
+
+
+`order:` define a ordem em que os itens devem aparecer no layout.
+
+
+
+
+
 
 
 
