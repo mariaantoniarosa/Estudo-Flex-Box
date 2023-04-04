@@ -15,7 +15,7 @@
   * `display-flex:` é o elemento que define um container como flex-box;
   * `flex-direction:` permite alterar a direção dos itens, nele podem ser utilizados os elementos: <br>
   **row:** alinha os itens da esquerda para direita; Exemplo: <br>
-  <img height = "100px" src ="https://user-images.githubusercontent.com/100320094/229654147-9c24848c-0ebe-4e0d-99b0-ba1b2a7987a3.png">
+  <img height = "100px" src ="https://user-images.githubusercontent.com/100320094/229655581-51f865a5-a47e-4aca-8556-8c0f6e1affaa.png">
   
   
   
